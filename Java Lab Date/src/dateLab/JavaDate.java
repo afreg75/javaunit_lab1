@@ -22,7 +22,7 @@ public class JavaDate {
 			earliestDateString = scnr.next();  //Captures first entry
 			newestDateString = scnr.next();   //Captures second entry
 			
-			if(earliestDateString.matches("[0-9]{4}-[0-9]{2}-[0-9]{2}") && newestDateString.matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")){ 
+			if(earliestDateString.matches("[0-9]{4}-[0-9]{2}-[0-9]{2}") && newestDateString.matches("[0-9]{4}-[0-9]{2}-[0-9]{2}")){   // checks to make sure user enters correct date format.
 				isvalid = true;
 			
 			
