@@ -13,15 +13,16 @@ public class LabNumber3App {
 		
 			System.out.println("Hello " + userName + ", Please enter a Number between 1 and 100.");
 			userInput= scnr.nextInt();
-
-			if (userInput < 1 || userInput > 100) {
+			
+					if (userInput < 1 || userInput > 100) {
 			    System.out.println(userName + ", you have entered "+ userInput + " please enter a Number between 1 and 100");	
+		
 			}
 			
-			if	(userInput % 2 == 0 && userInput < 25) {
+			else if	(userInput % 2 == 0 && userInput <= 25) {
 			System.out.println(userName + ", you have entered " + userInput + ",  the number is even and less than 25");
 		    }
-			else if	(userInput % 2 == 0 && userInput < 60) {
+			else if	(userInput % 2 == 0 && userInput <= 60) {
 				System.out.println(userName + ", you have entered " + userInput + ",  the number is even");
 			    }
 			else if	(userInput % 2 == 0 && userInput > 60) {
