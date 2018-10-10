@@ -32,6 +32,8 @@ public class LabNumber3App {
 		  }
 			else 
 				System.out.println(userName + ", you have entered " + userInput + ",  the number is odd");
+			
+			scnr.close();
 	}
 			
 }
